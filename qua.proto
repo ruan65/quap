@@ -1,0 +1,10 @@
+syntax = 'proto3';
+
+message QuaMessage {
+  string from = 1;
+	string body = 2;
+}
+
+service Qua {
+  rpc quaInterview(stream QuaMessage) returns(stream QuaMessage){}
+}
