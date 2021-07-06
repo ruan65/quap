@@ -1,6 +1,7 @@
 name: quap
 description: qua proto
 version: 0.0.1
+repository: https://github.com/ruan65/quap
 
 environment:
   sdk: '>=2.13.0 <3.0.0'
