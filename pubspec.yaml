@@ -1,0 +1,11 @@
+name: quap
+description: qua proto
+version: 0.0.2
+repository: https://github.com/ruan65/quap
+
+environment:
+  sdk: '>=2.13.0 <3.0.0'
+
+dependencies:
+  pedantic: ^1.10.0
+  grpc: ^3.0.0
